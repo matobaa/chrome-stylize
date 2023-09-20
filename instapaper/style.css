@@ -1,0 +1,7 @@
+.article_preview, .article_title {
+  font-weight: 300;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
+.article_item {
+  border-bottom: 1px solid #777777 !important;
+}

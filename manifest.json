@@ -1,0 +1,16 @@
+{
+  "name": "chrome-stylize",
+  "author": "Akihiro MATOBA",
+  "description": "chrome extension for customize CSS and JS.",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "web_accessible_resources": [],
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["https://www.instapaper.com/*"],
+      "css": ["instapaper/style.css"],
+      "js": ["instapaper/script.js"]
+    }
+  ]
+}
