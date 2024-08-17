@@ -9,8 +9,23 @@
   "content_scripts": [
     {
       "matches": ["https://www.instapaper.com/*"],
-      "css": ["instapaper/style.css"],
-      "js": ["instapaper/script.js"]
+      "css": ["instapaper.com/style.css"],
+      "js": ["instapaper.com/script.js"]
+    },
+    {
+      "matches": ["https://*.goguynet.jp/*"],
+      "css": ["goguynet.jp/style.css"],
+      "js": ["goguynet.jp/script.js"]
+    },
+    {
+      "matches": ["https://x.com/*"],
+      "css": ["x.com/style.css"],
+      "js": ["x.com/script.js"]
+    },
+    {
+      "matches": ["https://togetter.com/*"],
+      "css": ["togetter.com/style.css"],
+      "js": ["togetter.com/script.js"]
     }
   ]
 }
