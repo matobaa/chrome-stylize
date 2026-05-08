@@ -28,9 +28,9 @@
       "js": ["togetter.com/script.js"]
     },
     {
-      "matches": ["https://qiita.com/*"],
-      "css": ["qiita.com/style.css"],
-      "js": ["qiita.com/script.js"]
+      "matches": ["<all_urls>"],
+      "css": ["all/style.css"],
+      "js": ["all/script.js"]
     }
   ]
 }
