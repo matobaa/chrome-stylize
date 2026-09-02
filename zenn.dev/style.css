@@ -1,0 +1,5 @@
+article {
+  section { width: inherit !important; }
+  header + div { max-width: inherit !important; }
+  section div div { max-width: inherit !important; }
+}

@@ -38,6 +38,11 @@
       "js": ["qiita.com/script.js"]
     },
     {
+      "matches": ["https://zenn.dev/*"],
+      "css": ["zenn.dev/style.css"],
+      "js": ["zenn.dev/script.js"]
+    },
+    {
       "matches": ["https://www.itmedia.co.jp/*"],
       "css": ["itmedia/style.css"],
       "js": ["itmedia/script.js"]
