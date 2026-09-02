@@ -28,6 +28,21 @@
       "js": ["togetter.com/script.js"]
     },
     {
+      "matches": ["https://cloud.google.com/application/web3/faucet/*"],
+      "css": ["web3.faucet/style.css"],
+      "js": ["web3.faucet/script.js"]
+    },
+    {
+      "matches": ["https://qiita.com/*"],
+      "css": ["qiita.com/style.css"],
+      "js": ["qiita.com/script.js"]
+    },
+    {
+      "matches": ["https://www.itmedia.co.jp/*"],
+      "css": ["itmedia/style.css"],
+      "js": ["itmedia/script.js"]
+    },
+    {
       "matches": ["<all_urls>"],
       "css": ["all/style.css"],
       "js": ["all/script.js"]
